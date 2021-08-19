@@ -1,4 +1,4 @@
-<div *ngIf="items?.length > 0;else noItems">
+<div *ngIf="items.length > 0;else noItems">
     <ul *ngFor="let item of items" class="collection">
       <li class="collection-item"><strong>{{item.title}}: </strong> {{item.description}} <a href="#" class="secondary-content">
         <i (click)="editItem($event, item)" class="fa fa-pencil"></i>  
