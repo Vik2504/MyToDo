@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "todolistapp-96cc0": {
+      "hosting": {
+        "MyTodo": [
+          "todolistapp-96cc0"
+        ]
+      }
+    }
+  }
+}
